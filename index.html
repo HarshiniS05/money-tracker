@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'">
+<title>My Money Tracker</title>
+<link rel="manifest" href="manifest.json"><link rel="icon" href="icon.svg"><link rel="stylesheet" href="style.css">
+</head><body>
+<div id="lock" hidden><form id="lf"><h2>🔒 Locked</h2><input id="lp" type="password" placeholder="Password" autocomplete="current-password"><button>Unlock</button><p id="le" class="neg"></p></form></div>
+<nav id="nav"></nav>
+<main id="app"></main>
+<div id="toast" hidden></div>
+<script src="chart.umd.js"></script><script src="app.js"></script>
+</body></html>
