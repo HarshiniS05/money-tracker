@@ -18,3 +18,6 @@ label{display:flex;flex-direction:column;font-size:13px;color:var(--mut);gap:2px
 .chart{height:280px;position:relative}#toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:10px 16px;border-radius:8px;z-index:20}
 #lock{position:fixed;inset:0;background:var(--bg);z-index:30;display:flex;align-items:center;justify-content:center}#lock[hidden],#toast[hidden]{display:none}#lf{display:flex;flex-direction:column;gap:8px;width:280px}
 ul.ins{padding-left:18px}@media print{nav,.noprint,button{display:none!important}body{background:#fff;color:#000}}
+#cbtn{position:fixed;right:14px;bottom:14px;z-index:15;width:48px;height:48px;border-radius:50%;font-size:22px;background:var(--pri);color:#fff;border-color:var(--pri)}
+#calc{position:fixed;right:14px;bottom:72px;z-index:15;width:250px;padding:10px;background:var(--card);border:1px solid var(--bd);border-radius:12px;box-shadow:0 4px 16px #0005}#calc[hidden]{display:none}
+#cd{width:100%;font-size:22px;text-align:right}.ck{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:8px 0}.ck button{padding:12px 0;font-size:18px}@media print{#cbtn,#calc{display:none!important}}
